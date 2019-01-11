@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .container {
@@ -134,19 +137,28 @@ p {
     border-bottom: 1px dashed black;
     display: flex;
     flex-wrap: wrap;
+    justify-content: start space-evenly;
 }
 
 .middle-content .text-container.about {
-    width: 44%;
-    padding: 0 1%;
+    width: 42%;
+    padding: 20px;
     padding-bottom: 20px;  
-    margin: 10px;
-
+    margin: 5px;
+    flex-grow: 1;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+
+.middle-content .learn-more {
+    border-radius: 2px;
+    border: 1.75px black solid;  
+    text-align: center; 
+    padding: 5px;
+    width: 33%; 
 }
 
 .middle-content .boxes {
@@ -182,6 +194,10 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.bottom-content.about {
+    padding-top: 20px;
 }
 
 .bottom-content .text-container {
