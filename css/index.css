@@ -67,8 +67,43 @@ p {
 }
 
 .container {
+    display: flex-wrap;
     width: 800px;
     margin: 0 auto;
+}
+
+.header-content {
+    justify-content: start;
+    align-items: center; 
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.header-content .mainlogo {
+    order: 0;
+}
+
+.header-content nav {
+    width: 70%;
+}
+
+.header-content nav ul li {
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.header-content nav ul li a {
+    text-decoration: none; 
+    color: gray; 
+}
+
+.header-content nav ul li a:hover {
+    color: red; 
 }
 
 .top-content {
