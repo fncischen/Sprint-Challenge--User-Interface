@@ -46,14 +46,11 @@ as the current line of the existing text, image, div element, class element, etc
 
 3. What are the 4 areas of the box model?
 
-* Margin
-* Border
-* Padding
-* Content 
+*Margin, Border, Padding, & Content* 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-* Align-items: center allows for all items on the flex box container to be centered directly on the cross axis. *
+*Align-items: center allows for all items on the flex box container to be centered directly on the cross axis.*
 
 5. Explain why git is valuable to a team of developers.
 
