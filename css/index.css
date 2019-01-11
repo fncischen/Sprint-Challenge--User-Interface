@@ -155,6 +155,18 @@ p {
     justify-content: space-evenly;
 }
 
+.middle-content .box1 { background-color: teal}
+.middle-content .box2 { background-color: gold }
+.middle-content .box3 { background-color: cadetblue}
+.middle-content .box4 { background-color: coral}
+.middle-content .box5 { background-color: crimson}
+.middle-content .box6 { background-color: forestgreen}
+.middle-content .box7 { background-color: darkorchid}
+.middle-content .box8 { background-color: hotpink}
+.middle-content .box9 { background-color: indigo}
+.middle-content .box10 { background-color: dodgerblue}
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
